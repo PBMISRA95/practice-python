@@ -1,5 +1,4 @@
-
-""" Exercise 2 :- Odd or Even (PracticePython.org)
+"""Exercise 2 :- Odd or Even (PracticePython.org)
 
 Problem Statement :- It accepts two numbers. Then it checks the following
 
@@ -13,21 +12,21 @@ num = int(input("Enter the first number = "))
 num2 = int(input("Enter the second number = "))
 
 # This is the first part of the program.
-if num%4 == 0:
+if num % 4 == 0:
     print(str(num) + " is divisible by 4")
 else:
     print(str(num) + " is not divisible by 4")
 
 # This is the second part of the program.
 
-if num%num2 == 0:
-    print(str(num) +" is divisible by " + str(num2))
+if num % num2 == 0:
+    print(str(num) + " is divisible by " + str(num2))
 else:
-    print(str(num) +" is not divisible by " + str(num2))
+    print(str(num) + " is not divisible by " + str(num2))
 
 # This is the 3rd part of the program.
 
-if num%2 == 0:
-    print(str(num) +" is even" )
+if num % 2 == 0:
+    print(str(num) + " is even")
 else:
-    print(str(num) +" is odd")
+    print(str(num) + " is odd")

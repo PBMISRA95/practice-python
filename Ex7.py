@@ -1,5 +1,4 @@
-
-""" Exercise 7 :- List Comprehension (PracticePython.org)
+"""Exercise 7 :- List Comprehension (PracticePython.org)
 
 Problem Statement :- The following has to be implemented in Python
 
@@ -8,14 +7,16 @@ Problem Statement :- The following has to be implemented in Python
 
 """
 
-input_str = (input("Enter the list"))
+input_str = input("Enter the list")
 usr_input_list = list(input_str.split())
 print("The entered user input list is :- ")
 print(usr_input_list)
 
-only_even_list = [num for num in usr_input_list if int(num)%2 == 0]     #Logic of obtain even numbers using List comprehension
+only_even_list = [
+    num for num in usr_input_list if int(num) % 2 == 0
+]  # Logic of obtain even numbers using List comprehension
 
-print("The list with only even numbers are as follow : \n" +str(only_even_list))
+print("The list with only even numbers are as follow : \n" + str(only_even_list))
 
 """Line 16 can also be written as:-
 

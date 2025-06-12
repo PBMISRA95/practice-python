@@ -1,5 +1,4 @@
-
-""" Exercise 3 :- List less than Ten (PracticePython.org)
+"""Exercise 3 :- List less than Ten (PracticePython.org)
 
 Problem Statement :- The following has to be implemented in Python
 
@@ -35,6 +34,11 @@ for i in x_input_list:
     if int(i) < x_new:
         x_input_new.append(i)
 
-print("\n The following elements of the given above user input list are less than "+ str(x_new) + "\n " + str(x_input_new))
+print(
+    "\n The following elements of the given above user input list are less than "
+    + str(x_new)
+    + "\n "
+    + str(x_input_new)
+)
 
 # End of Progam. Developed on 23-07-2020 by Priyabrat Mishra

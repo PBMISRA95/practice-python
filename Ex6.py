@@ -1,5 +1,4 @@
-
-""" Exercise 6 :- String Lists (PracticePython.org)
+"""Exercise 6 :- String Lists (PracticePython.org)
 
 Problem Statement :- The following has to be implemented in Python
 
@@ -7,14 +6,15 @@ Problem Statement :- The following has to be implemented in Python
 2) Check whether the string is Palindrome
 
 """
+
 str_input = input("Enter a string :- ")
-str_input_rev = str_input[len(str_input)::-1]
+str_input_rev = str_input[len(str_input) :: -1]
 
-print("The entered String is "+str_input)
-print("The reverse of the String is "+ str_input_rev)
-flag =False
+print("The entered String is " + str_input)
+print("The reverse of the String is " + str_input_rev)
+flag = False
 
-#Both the logics have been commented below. To use them add #(hash) symbol in front of (""") symbol one of either of logics.
+# Both the logics have been commented below. To use them add #(hash) symbol in front of (""") symbol one of either of logics.
 
 """
 if(str_input == str_input_rev):
