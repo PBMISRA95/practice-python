@@ -1,30 +1,39 @@
-# Configuration file for pre-commit hooks
+# Core Pre-commit Hooks - Essential file formatting and validation
+# These hooks ensure basic file hygiene and prevent common issues
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks  # Main Pre-commit hook
     rev: v5.0.0
     hooks:
-      - id: trailing-whitespace
-      - id: check-json
-      - id: check-yaml
-      - id: end-of-file-fixer
-      - id: pretty-format-json
+      - id: trailing-whitespace         # Removes trailing whitespace from all files
+      - id: check-json                  # Checks JSON files for syntax errors
+      - id: check-yaml                  # Checks YAML files for syntax errors
+      - id: end-of-file-fixer           # Ensures all files end with a newline character
+      - id: pretty-format-json          # Formats JSON files for consistency
         args: [--autofix]
-        exclude: '\.ipynb$'
+        exclude: '\.ipynb$'             # Excludes Jupyter notebook files
 
+  # Python Code Formatter - Automatically formats Python code for consistency
+  # Uses Black formatter with 100 character line length
+  # Enforces consistent style, spacing, and formatting across the codebase
   - repo: https://github.com/psf/black
     rev: 25.1.0
     hooks:
       - id: black
         args: [--line-length=100]
 
-# Python Sorter hook
+  # Python Import Sorter - Organizes and sorts import statements
+  # Groups imports by type (stdlib, third-party, local) and sorts alphabetically
+
   - repo: https://github.com/pycqa/isort
     rev: 6.0.1
     hooks:
       - id: isort
         args: [--profile=black, --filter-files]
 
-      # Python Linter hook
+  # Python Linter - Checks code quality, style violations, and errors
+  # Reports issues like unused imports, undefined variables, and PEP 8 violations
+  # Works alongside Black formatter to ensure code quality
   - repo: https://github.com/PyCQA/flake8
     rev: 7.2.0
     hooks:
