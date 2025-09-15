@@ -3,7 +3,7 @@
 Example: check_even_odd(5) → "odd"
 """
 
-input_num = int(input("Enter an integer - "))
+# input_num = int(input("Enter an integer - "))
 
 
 def check_even_odd(input_num: int) -> str:
@@ -13,7 +13,7 @@ def check_even_odd(input_num: int) -> str:
         return "odd"
 
 
-print(f"The integer {input_num} is {check_even_odd(input_num)}")
+# print(f"The integer {input_num} is {check_even_odd(input_num)}")
 
 # Logic 2 - Use of ternary operator
 """

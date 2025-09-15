@@ -3,9 +3,6 @@
 Example: sum_list([1, 2, 3, 4]) → 10
 """
 
-# input_list = list(input("Enter a list of numbers - "))
-input_list = [1, 2, 3, 4, 5]
-
 # Logic 1 - Using the built function sum()
 
 
@@ -14,7 +11,7 @@ def sum_list(input_list: list) -> int:
     return output
 
 
-print(f"The sum of {input_list} is {sum_list(input_list)}")
+# print(f"The sum of {input_list} is {sum_list(input_list)}")
 """
  Logic 2 - Using For loop
 
