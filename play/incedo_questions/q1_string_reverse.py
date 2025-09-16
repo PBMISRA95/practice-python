@@ -11,7 +11,7 @@ def reverse_string(input_string: str) -> str:
     return input_string[::-1]
 
 
-print("Importing o1_string_reverse")
+# print("Importing o1_string_reverse")
 
 # output_string = reverse_string(input_string)
 # print(f"The reverse of {input_string} is {output_string}")
