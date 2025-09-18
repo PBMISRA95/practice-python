@@ -1,0 +1,27 @@
+Revision
+
+### Q1: Reversing a string
+
+def reverse_string(input_str: str) -> str:
+    return input_str[::-1]
+
+### Q2 : Sum of numbers
+
+def sum_list(input_nums: list[int])-> int:
+     sum = 0
+     for num in input_nums:
+        sum += num
+    return sum
+
+Another method for sum_list
+
+def sum_list(input_nums: list[int])-> int:
+    return sum(input_nums)
+
+### Q3 Check odd or even number
+
+def check_even_odd(input_num):
+    if input_num % 2 ==0:
+        return "even"
+    else:
+        return "odd"
