@@ -1,0 +1,21 @@
+ipykernel
+jupyterlab
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+
+# PyTorch (CPU+MPS on macOS)
+torch
+torchvision
+torchaudio
+
+# Hugging Face + training utils
+transformers[torch]
+datasets
+accelerate
+peft
+evaluate
+safetensors
+sentencepiece
