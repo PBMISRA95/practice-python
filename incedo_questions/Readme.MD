@@ -12,8 +12,8 @@ incedo_questions/
 ├── q1_q10/ # Implementation of Questions 1 - 10
 ├── q11_q20/ # Implementation of Questions 11 - 20
 ├── q21_q30/ # Implementation of Questions 21 - 30
-├── practice_days/ # Daily Practice sessions organised by month
-├── questions.txt   # Complete list of all 30 questions
+├── practice_days/ # Daily Practice sessions organised by month and day
+├── questions.txt   # Original list of all 30 questions
 ```
 ## List of Questions
 ### Q1-Q10: Foundation Concepts
@@ -22,44 +22,44 @@ incedo_questions/
 |---|----------|------|--------------|
 | 1 | Reverse a string | `q1_string_reverse.py` | String slicing, loops |
 | 2 | Sum of list | `q2_sum_list.py` | `sum()`, iteration |
-| 3 | Check palindrome | `q3_palindrome.py` | String comparison |
-| 4 | Remove duplicates | `q4_remove_duplicates.py` | Sets, list comprehension |
-| 5 | Word frequency | `q5_word_frequency.py` | Dictionaries, `Counter` |
-| 6 | Join list strings | `q6_join_list.py` | `join()`, string methods |
-| 7 | Factorial | `q7_factorial.py` | Recursion, loops |
-| 8 | Count vowels | `q8_count_vowels.py` | String operations, sets |
-| 9 | Max value in list | `q9_max_value.py` | `max()`, iteration |
-| 10 | Prime number check | `q10_prime_number.py` | Mathematical logic, loops |
+| 3 | Check even or odd | `q3_even_odd.py` | Modulo operator, conditionals |
+| 4 | Calculate factorial | `q4_factorial.py` | Recursion, loops |
+| 5 | Count vowels | `q5_count_vowels.py` | String operations, sets |
+| 6 | Find max value | `q6_find_max.py` | `max()`, iteration |
+| 7 | Check palindrome | `q7_palindrome.py` | String comparison, slicing |
+| 8 | Remove duplicates | `q8_remove_duplicates.py` | Sets, list comprehension |
+| 9 | Word frequency | `q9_word_frequency.py` | Dictionaries, `split()` |
+| 10 | Join Words | `q10_join_words.py` | `join()`, string methods |
 
 ### Q11-Q20: Intermediate Algorithms
 
 | # | Question | File | Key Concepts |
 |---|----------|------|--------------|
-| 11 | Character count | `q11_char_count.py` | Dictionary operations |
-| 12 | Rotate list | `q12_rotate_list.py` | List slicing, indexing |
-| 13 | Second largest | `q13_second_largest.py` | Sorting, comparison |
-| 14 | Anagram check | `q14_anagram.py` | Sorting, `Counter` |
-| 15 | Flatten nested list | `q15_flatten_list.py` | Recursion, iteration |
-| 16 | GCD of two numbers | `q16_gcd.py` | Euclidean algorithm |
-| 17 | Square odds | `q17_square_odds.py` | List comprehension |
-| 18 | Dictionary sorting | `q18_sort_dict.py` | `sorted()`, lambda |
-| 19 | LCM of two numbers | `q19_lcm.py` | GCD relationship |
-| 20 | Average with None | `q20_average_none.py` | Error handling, filtering |
+| 11 | Character count | `q11_count_chars.py` | Dictionary operations, `Counter` |
+| 12 | Square odd numbers | `q12_square_odds.py` | List comprehension, conditionals |
+| 13 | Rotate list | `q13_rotate_list.py` | List slicing, indexing |
+| 14 | Sort dictionaries | `q14_sort_dicts.py` | `sorted()`, lambda, key parameter |
+| 15 | Calculate average | `q15_average_list.py` | `sum()`, `len()`, None handling |
+| 16 | Second largest | `q16_second_largest.py` | Sorting, `set()`, error handling |
+| 17 | Check prime number | `q17_is_prime.py` | Mathematical logic, loops |
+| 18 | List prime numbers | `q18_list_primes.py` | Loops, prime checking |
+| 19 | GCD of two numbers | `q19_gcd.py` | Euclidean algorithm, `math.gcd` |
+| 20 | LCM of two numbers | `q20_lcm.py` | GCD relationship, math |
 
 ### Q21-Q30: Advanced Problems
 
 | # | Question | File | Key Concepts |
 |---|----------|------|--------------|
-| 21 | Merge sorted lists | `q21_merge_sorted.py` | Two-pointer technique |
-| 22 | Check balanced parentheses | `q22_balanced_parens.py` | Stack operations |
-| 23 | Fibonacci sequence | `q23_fibonacci.py` | Recursion, memoization |
-| 24 | Remove nth occurrence | `q24_remove_nth_occurrence.py` | String manipulation |
-| 25 | Find missing number | `q25_missing_number.py` | Mathematical approach |
-| 26 | Group anagrams | `q26_group_anagrams.py` | Hash maps, sorting |
-| 27 | Power of two | `q27_power_of_two.py` | Bit manipulation |
-| 28 | String compression | `q28_string_compression.py` | String building |
-| 29 | Rotate matrix | `q29_rotate_matrix.py` | 2D array manipulation |
-| 30 | First non-repeating char | `q30_first_non_repeat.py` | Hash map, order |
+| 21 | Nth Fibonacci number | `q21_fibonacci.py` | Recursion, memoization, 0-indexed |
+| 22 | Generate Fibonacci | `q22_generate_fibonacci.py` | Loops, list building, generators |
+| 23 | Celsius to Fahrenheit | `q23_celsius_to_fahrenheit.py` | Mathematical formula |
+| 24 | Check leap year | `q24_is_leap_year.py` | Conditional logic, modulo |
+| 25 | Flatten nested list | `q25_flatten_list.py` | List comprehension, iteration |
+| 26 | Merge dictionaries | `q26_merge_dicts.py` | Dictionary update, unpacking |
+| 27 | List intersection | `q27_list_intersection.py` | Sets, intersection |
+| 28 | Check anagrams | `q28_are_anagrams.py` | Sorting, `Counter`, normalization |
+| 29 | Remove punctuation | `q29_remove_punctuation.py` | `string.punctuation`, `str.translate` |
+| 30 | Transpose matrix | `q30_transpose_matrix.py` | `zip()`, list comprehension, 2D arrays |
 
 ## Learning Path
 
