@@ -4,51 +4,51 @@
 
 1. Reverse String 
 
-Write a function that takes a string as input and returns it reversed.  
+Write a function that takes a string as input and returns it reversed. <br>
 Example: reverse_string("hello") -> "olleh"
 
-1. Count Vowels
+2. Count Vowels
 
 Write a function that counts the number of vowels (a, e, i, o, u) in a string. 
 
  Example: count_vowels("hello") -> 2
 
-1. Palindrome Check
+3. Palindrome Check
 
 Write a function that checks if a string is a palindrome (case-insensitive).
 Example: is_palindrome("Racecar") -> True
 
-1. Word Frequency
+4. Word Frequency
 
 Write a function that takes a string and returns a dictionary containing the frequency of each word.
 Example: word_frequency("the cat the dog") -> {"the": 2, "cat": 1, "dog": 1}
 
-1. Character Frequency
+4. Character Frequency
 
 Write a function that returns a dictionary containing the frequency of each character in a string.
 Example: count_chars("hello") -> {'h': 1, 'e': 1, 'l': 2, 'o': 1}
 
-1. Join Words
+5. Join Words
 
 Write a function that takes a list of words and joins them into a single string using spaces.
 Example: join_words(["hello", "world"]) -> "hello world"
 
-1. Remove Punctuation
+6. Remove Punctuation
 
 Write a function that removes all punctuation characters from a string.
 Example: remove_punctuation("Hi, there!") -> "Hi there"
 
-1. Anagram Check
+7. Anagram Check
 
 Write a function that checks whether two strings are anagrams of each other (case-insensitive, ignoring spaces).
 Example: are_anagrams("Listen", "Silent") -> True
 
-1. Longest Word
+8. Longest Word
 
 Write a function that returns the longest word in a sentence.
 Example: longest_word("I love machine learning") -> "learning"
 
-1. First Non-Repeating Character
+9. First Non-Repeating Character
 
 Write a function that returns the first character that appears only once in a string.
 Example: first_non_repeating("swiss") -> "w"
