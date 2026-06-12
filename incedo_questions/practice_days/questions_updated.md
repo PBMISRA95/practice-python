@@ -62,47 +62,47 @@ Also Set and Tuple definition
 
 1. Sum of List
 
-Write a function that takes a list of numbers and returns their sum.
+Write a function that takes a list of numbers and returns their sum.<br>
 Example: sum_list([1, 2, 3, 4]) -> 10
 
-1. Find Maximum
+2. Find Maximum
 
-Write a function that takes a list of numbers and returns the maximum value.
+Write a function that takes a list of numbers and returns the maximum value.<br>
 Example: find_max([3, 1, 4, 1, 5]) -> 5
 
-1. Remove Duplicates
+3. Remove Duplicates
 
-Write a function that removes duplicate elements from a list.
+Write a function that removes duplicate elements from a list. <br>
 Example: remove_duplicates([1, 2, 2, 3, 4, 4]) -> [1, 2, 3, 4]
 
-1. Rotate List
+4. Rotate List
 
-Write a function that rotates a list to the right by k positions using slicing.
+Write a function that rotates a list to the right by k positions using slicing.<br>
 Example: rotate_list([1, 2, 3, 4, 5], 2) -> [4, 5, 1, 2, 3]
 
-1. Flatten Nested List
+5. Flatten Nested List
 
-Write a function that flattens a list of lists into a single list.
+Write a function that flattens a list of lists into a single list.<br>
 Example: flatten_list([[1, 2], [3, 4]]) -> [1, 2, 3, 4]
 
-1. List Interaction
+6. List Interaction
 
-Write a function that returns unique elements common to two lists.
+Write a function that returns unique elements common to two lists.<br>
 Example: list_intersection([1, 2, 3], [2, 3, 4]) -> [2, 3]
 
-1. Average of List
+7. Average of List
 
-Write a function that returns the arithmetic mean of a list. Return None for an empty list.
+Write a function that returns the arithmetic mean of a list. Return None for an empty list.<br>
 Example: average_list([4, 8]) -> 6.0
 
-1. Square Odd numbers (List Comprehension)
+8. Square Odd numbers (List Comprehension)
 
-Write a function that squares odd numbers in a list using list comprehension.
+Write a function that squares odd numbers in a list using list comprehension.<br>
 Example: square_odds([1, 2, 3, 4]) -> [1, 2, 9, 4]
 
-1. Move Zeroes
+9. Move Zeroes
 
-Write a function that moves all zeroes to the end of the list while maintaining the order of non-zero elements.
+Write a function that moves all zeroes to the end of the list while maintaining the order of non-zero elements.<br>
 Example: move_zeroes([0, 1, 0, 3, 12]) -> [1, 3, 12, 0, 0]
 
 ---
@@ -114,36 +114,36 @@ Example: move_zeroes([0, 1, 0, 3, 12]) -> [1, 3, 12, 0, 0]
 Write a function that merges two dictionaries. If duplicate keys exist, values from the second dictionary should override the first.
 Example: merge_dicts({'a': 1}, {'a': 2, 'b': 3}) -> {'a': 2, 'b': 3}
 
-1. Frequency Count of Elements
+2. Frequency Count of Elements
 
-Write a function that returns the frequency count of elements in a list.
+Write a function that returns the frequency count of elements in a list.<br>
 Example: frequency_count([1, 2, 2, 3]) -> {1: 1, 2: 2, 3: 1}
 
-1. Sort List of Dictionaries by Key
+3. Sort List of Dictionaries by Key
 
-Write a function that sorts a list of dictionaries by the "name" key in ascending order.
+Write a function that sorts a list of dictionaries by the "name" key in ascending order.<br>
 Example: [{"name": "Bob"}, {"name": "Alice"}] -> [{"name": "Alice"}, {"name": "Bob"}]
 
 ### D. Basic Logic
 
 1. Even/Odd
 
-Write a function that returns "even" if a number is even and "odd" if it is odd.
+Write a function that returns "even" if a number is even and "odd" if it is odd.<br>
 Example: check_even_odd(5) -> "odd"
 
-1. Factorial
+2. Factorial
 
-Write a function that computes the factorial of a non-negative integer.
+Write a function that computes the factorial of a non-negative integer.<br>
 Example: factorial(5) -> 120
 
-1. Second Largest Element
+3. Second Largest Element
 
-Write a function that returns the second-largest unique element in a list.
+Write a function that returns the second-largest unique element in a list.<br>
 Example: second_largest([4, 1, 7, 7, 3]) -> 4
 
-1. Leap Year
+4. Leap Year
 
-Write a function that determines whether a year is a leap year.
+Write a function that determines whether a year is a leap year.<br>
 Example: is_leap_year(2000) -> True
 
 ---
@@ -152,69 +152,69 @@ Example: is_leap_year(2000) -> True
 
 1. Prime Check
 
-Write a function that checks whether an integer is prime.
+Write a function that checks whether an integer is prime.<br>
 Example: is_prime(11) -> True
 
-1. List of Primes
+2. List of Primes
 
-Write a function that returns all prime numbers less than or equal to a given limit.
+Write a function that returns all prime numbers less than or equal to a given limit.<br>
 Example: list_primes(10) -> [2, 3, 5, 7]
 
-1. GCD
+3. GCD
 
-Write a function that returns the greatest common divisor of two integers.
+Write a function that returns the greatest common divisor of two integers.<br>
 Example: gcd(48, 18) -> 6
 
-1. LCM
+4. LCM
 
-Write a function that returns the least common multiple of two integers.
+Write a function that returns the least common multiple of two integers.<br>
 Example: lcm(4, 6) -> 12
 
-1. Fibonacci Number
+5. Fibonacci Number
 
-Write a function that returns the nth Fibonacci number (0-indexed).
+Write a function that returns the nth Fibonacci number (0-indexed).<br>
 Example: fibonacci(7) -> 13
 
-1. Generate Fibonacci Series
+6. Generate Fibonacci Series
 
-Write a function that generates the first n Fibonacci numbers.
+Write a function that generates the first n Fibonacci numbers.<br>
 Example: generate_fibonacci(5) -> [0, 1, 1, 2, 3]
 
-1. Reverse Number 1234
+7. Reverse Number 1234
 
-Write a function that reverses the digits of an integer.
+Write a function that reverses the digits of an integer. <br>
 Example: reverse_number(1234) -> 4321
 
 ## F. Important DSA Interview Question
 
 1. Two Sum
 
-Write a function that returns the indices of two numbers whose sum equals a target value.
+Write a function that returns the indices of two numbers whose sum equals a target value.<br>
 Example: two_sum([2, 7, 11, 15], 9) -> [0, 1]
 
-1. Valid Parentheses
+2. Valid Parentheses
 
-Write a function that checks whether a string containing brackets is valid.
+Write a function that checks whether a string containing brackets is valid.<br>
 Example: is_valid_parentheses("()[]{}") -> True
 
-1. Find Duplicate Using Set
+3. Find Duplicate Using Set
 
-Write a function that finds the first duplicate element in a list using a set.
+Write a function that finds the first duplicate element in a list using a set. <br>
 Example: find_duplicate([1, 3, 4, 2, 2]) -> 2
 
 ### G. Sorting
 
 1. Bubble Sort
 
-Write a function that sorts a list using the Bubble Sort algorithm.
+Write a function that sorts a list using the Bubble Sort algorithm. <br>
 Example: bubble_sort([5, 3, 8, 1]) -> [1, 3, 5, 8]
 
-1. Merge Sort
+2. Merge Sort
 
-Write a function that sorts a list using the Merge Sort algorithm.
+Write a function that sorts a list using the Merge Sort algorithm.<br>
 Example: merge_sort([5, 3, 8, 1]) -> [1, 3, 5, 8]
 
-1. Quick Sort
+3. Quick Sort
 
-Write a function that sorts a list using the Quick Sort algorithm.
+Write a function that sorts a list using the Quick Sort algorithm.<br>
 Example: quick_sort([5, 3, 8, 1]) -> [1, 3, 5, 8]
