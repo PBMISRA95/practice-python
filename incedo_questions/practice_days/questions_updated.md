@@ -124,6 +124,8 @@ Example: frequency_count([1, 2, 2, 3]) -> {1: 1, 2: 2, 3: 1}
 Write a function that sorts a list of dictionaries by the "name" key in ascending order.<br>
 Example: [{"name": "Bob"}, {"name": "Alice"}] -> [{"name": "Alice"}, {"name": "Bob"}]
 
+---
+
 ### D. Basic Logic
 
 1. Even/Odd
@@ -185,6 +187,8 @@ Example: generate_fibonacci(5) -> [0, 1, 1, 2, 3]
 Write a function that reverses the digits of an integer. <br>
 Example: reverse_number(1234) -> 4321
 
+---
+
 ## F. Important DSA Interview Question
 
 1. Two Sum
@@ -201,6 +205,8 @@ Example: is_valid_parentheses("()[]{}") -> True
 
 Write a function that finds the first duplicate element in a list using a set. <br>
 Example: find_duplicate([1, 3, 4, 2, 2]) -> 2
+
+---
 
 ### G. Sorting
 
